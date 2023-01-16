@@ -1,0 +1,12 @@
+.menu__list {
+    gap: 20px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}

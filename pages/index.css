@@ -1,0 +1,13 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/how-it-works/how-it-works.css);
+@import url(../blocks/tracking-page/tracking-page.css);
+@import url(../blocks/price-demo/price-demo.css);
+@import url(../blocks/locations/locations.css);
+@import url(../blocks/FAQ/FAQ.css);
+@import url(../blocks/get-started/get-started.css);
+@import url(../blocks/footer/footer.css);

@@ -1,0 +1,98 @@
+.intro {
+    max-width: 1240px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.intro__title {
+    font-size: 64px;
+    line-height: 77px;
+    margin: 0 0 23px;
+    max-width: 557px;
+}
+
+.intro__text {
+    margin-bottom: 36px;
+    max-width: 717px;
+    text-align: center;
+}
+
+.intro__links-wrapper {
+    gap: 4px;
+    margin-bottom: 55px;
+}
+
+.intro__list {
+    gap: 61px;
+    margin-bottom: 40px;
+}
+
+.intro__list-item:before {
+    content: url(../../images/icons/tick.svg);
+    margin-right: 9px;
+}
+
+.intro__list-link {
+    font-size: 16px;
+    line-height: 24px;
+    color: #686868;
+    text-decoration: none;
+}
+
+.intro__image {
+    margin-bottom: 70px;
+}
+
+.intro__description {
+    max-width: 1012px;
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .intro__list {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .intro {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+
+    .intro__title {
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .intro__image {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .intro__list {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .intro__links-wrapper {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 515px) {
+    .intro__title {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 375px) {
+    .links__wrapper {
+        flex-direction: column;
+    }
+}
