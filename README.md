@@ -11,3 +11,6 @@ Some features/ technologies used:
 - Adaptive & responsive layout
 - CSS Flexbox
 - Accordion (Vanilla JS)
+
+
+https://katie-soft.github.io/localli/
